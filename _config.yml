@@ -19,3 +19,8 @@ name: Hank Quinlan, Horrible Cop
 
 # markdown version we need
 markdown: kramdown
+
+# add /blog to the permalink 
+# you're blog posts will live at http://username.github.io/blog/YYYY/MM/DD/name-of-your-post
+#
+permalink: /blog/:year/:month/:day/:title
