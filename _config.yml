@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 # Name of your site (displayed in the header)
-name: Hank Quinlan, Horrible Cop
+name: xxx_in_config.yml
 
 # markdown version we need
 markdown: kramdown
@@ -24,3 +24,4 @@ markdown: kramdown
 # you're blog posts will live at http://username.github.io/blog/YYYY/MM/DD/name-of-your-post
 #
 permalink: /blog/:year/:month/:day/:title
+

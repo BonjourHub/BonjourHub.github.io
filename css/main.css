@@ -41,3 +41,14 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+/*my class*/
+.menuColor {
+    background-color: #999999;
+
+}
+
+.testColor {
+
+    background-color: beige;
+}
