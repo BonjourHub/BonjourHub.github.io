@@ -1,29 +1,18 @@
 ---
-layout: default
+layout: home
 title: 主页
 ---
-<div class="menuColor">
 
 
-</div><!-- /.blurb -->
+<!-- 右侧导航区 -->
+<div class="column" ng-repeat="item in items">
+  <div ng-bind="item.title" style="font-weight: 500;margin: 8px"></div>
+  <!-- 分隔线 -->
+  <div style="background-color: #EAEAEA;height: 1px;margin-left: 1%"></div>
+  <div class="columnItem"
+       ng-repeat="subItem in item.subTitle">
+    <div ng-bind="subItem" style="height: 50%;padding: 15px"
 
-<table class="menuColor" width="100%" border="0">
-  <tr>
-    <td>
-      <br />
-      <br />
-      <br />
-      <br>服务器</br>
-      <br>客户端</br>
-      <br>数据库</br>
-      <br />
-      <br />
-      <br />
-
-    </td>
-    <td class="testColor">
-      内容在这里
-    </td>
-  </tr>
-
-</table>
+    ></div>
+  </div>
+</div>
