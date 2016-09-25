@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hank Quinlan, Horrible Cop, Launches Site"
+title: "iOS的界面优化技巧"
 date: 2014-04-30
 categories: iOS基础
 ---

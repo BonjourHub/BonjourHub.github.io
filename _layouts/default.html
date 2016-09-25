@@ -16,21 +16,21 @@
 			<script src="/lib/js/bootstrap.min.js"></script>
 		</head>
 		<body>
-			<div class="container">
+			<div class="container" style="margin-bottom: 10px;margin-top: 40px">
 				<div class="row">
 					<div class="col-md-3">
 						<h2>小米布加糖</h2>
 					</div>
 				</div>
 			</div>
-			<div class="container">
+			<div class="container" style="font-size: 18pt;margin-bottom: 10px">
 				<div class="row">
 					<div class="col-md-12">
-						<nav class="navbar navbar-default" role="navigation">
+						<nav class="navbar navbar-header" role="navigation">
 							<div class="container-fluid">
 								<div>
 									<ul class="nav navbar-nav">
-										<li class="active"><a href="/">首页</a></li>
+										<li><a href="/">首页</a></li>
 										<li><a href="/blog">时光轴</a></li>
 										<li><a href="/about">关于</a></li>
 									</ul>
@@ -39,6 +39,7 @@
 						</nav>
 					</div>
 				</div>
+				<div class="row"><div class="col-md-12" style="background-color: black;margin-top: -18px;"></div></div>
 			</div>
 			<div ng-app="myApp" ng-controller="homeCtrl" class="container">
 				{{ content }}

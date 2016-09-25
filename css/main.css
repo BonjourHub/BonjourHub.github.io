@@ -100,3 +100,7 @@ ul.posts li {
     background-color: beige;
 }*/
 
+ a:link ,a:visited, a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
