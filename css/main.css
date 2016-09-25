@@ -1,3 +1,4 @@
+/*
 body {
     margin: 60px auto;
     width: 70%;
@@ -42,7 +43,7 @@ ul.posts li {
     list-style: none;
 }
 /**my class**/
-/**左侧导航栏**/
+/**左侧导航栏**//*
 .leftMenu {
     background-color: rebeccapurple;
     width: 100%;
@@ -59,38 +60,36 @@ ul.posts li {
     height: 30px;
 
 }
-/**右侧分栏**/
+
 .column {
     background-color: #d5d5d5;
     float: left;
     width: 90%;
     margin: 1% 5%;
 
-    /*字体*/
+
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 120%;
 
-
 }
-/**分栏item**/
 .columnItem {
     background-color: #F6F6F6;
     width: 31%;
     height: 60px;
     margin: 1%;
     float: left;
-    /*边框*/
+
     border-style: solid;
     border-width: 0px;
     border-radius: 6px;
 
-    /*字体*/
+
     text-align: center;
 
 
-}
+}*/
 
-/*my class test*/
+/*my class test*//*
 .menuColor {
     background-color: black;
 
@@ -99,4 +98,5 @@ ul.posts li {
 .testColor {
 
     background-color: beige;
-}
+}*/
+

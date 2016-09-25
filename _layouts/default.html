@@ -2,16 +2,42 @@
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
+
+			<!-- bootStrap -->
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
 			<script src="/lib/src/angular.min.js"></script>
 			<script src="/lib/js/controller.js"></script>
+			<script src="/lib/js/bootstrap.min.js"></script>
 		</head>
 		<body>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<h3>小米布加糖</h3>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				导航栏
+			</div>
+			<div class="container">
+				内容区
+			</div>
+			<div class="container">
+				底部
+			</div>
+
+
+
+
+		<!--
 			<nav>
 	    		<ul>
 	        		<li><a href="/">首页</a></li>
-	        		<li><a href="/blog">时光轴</a></li><!-- 所有的博文,按照时间顺序排列 -->
+	        		<li><a href="/blog">时光轴</a></li>
 							<li><a href="/about">关于</a></li>
 	    		</ul>
 			</nav>
@@ -19,12 +45,16 @@
 			
 			{{ content }}
 			
-			</div><!-- /.container -->
+			</div>
+			--><!--
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:cpf0051@163.com"></a>email</li>
 	        		<li><a href="https://github.com/hankquinlan">github.com/BonjourHub</a></li>
 				</ul>
 			</footer>
+		-->
+
+
 		</body>
 	</html>
