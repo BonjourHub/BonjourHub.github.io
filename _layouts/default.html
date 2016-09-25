@@ -8,53 +8,51 @@
 
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
 			<script src="/lib/src/angular.min.js"></script>
 			<script src="/lib/js/controller.js"></script>
+
+			<script src="/lib/js/jquery-3.1.1.min.js"></script>
 			<script src="/lib/js/bootstrap.min.js"></script>
 		</head>
 		<body>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3">
-						<h3>小米布加糖</h3>
+						<h2>小米布加糖</h2>
 					</div>
 				</div>
 			</div>
 			<div class="container">
-				导航栏
+				<div class="row">
+					<div class="col-md-12">
+						<nav class="navbar navbar-default" role="navigation">
+							<div class="container-fluid">
+								<div>
+									<ul class="nav navbar-nav">
+										<li class="active"><a href="/">首页</a></li>
+										<li><a href="/blog">时光轴</a></li>
+										<li><a href="/about">关于</a></li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div ng-app="myApp" ng-controller="homeCtrl" class="container">
+				{{ content }}
 			</div>
 			<div class="container">
-				内容区
+				<div class="row"><div class="col-md-12"
+									  style="
+									  background-color: gray;
+									  height: 1px;margin-top: 80px;margin-bottom: 10px"></div></div>
+				<div class="row">
+					<div class="col-md-1"><address><a href="mailto:cpf0051@163.com">email</a></address></div>
+					<div class="col-md-1"><address><a href="https://github.com/hankquinlan">github.com/BonjourHub</a></address></div>
+				</div>
 			</div>
-			<div class="container">
-				底部
-			</div>
-
-
-
-
-		<!--
-			<nav>
-	    		<ul>
-	        		<li><a href="/">首页</a></li>
-	        		<li><a href="/blog">时光轴</a></li>
-							<li><a href="/about">关于</a></li>
-	    		</ul>
-			</nav>
-			<div ng-app="myApp" class="container">
-			
-			{{ content }}
-			
-			</div>
-			--><!--
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:cpf0051@163.com"></a>email</li>
-	        		<li><a href="https://github.com/hankquinlan">github.com/BonjourHub</a></li>
-				</ul>
-			</footer>
-		-->
-
 
 		</body>
 	</html>

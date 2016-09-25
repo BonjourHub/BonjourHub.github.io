@@ -1,0 +1,43 @@
+---
+layout: default
+title: iOS基础
+---
+<!--
+建立和首页右边对应的分类的html文件，不同的文件显示不同的分类，
+并在{% if category.first == 'sample' %}{% endif %}此处进行配置，以后markdown里要配置分类信息
+最好将分类统一好了
+
+后期想办法实现一个html文件显示不同的分类
+. 和 \ 功能相同
+-->
+
+{% for category in site.categories %}
+{% if category.first == 'iOS基础' %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-10">
+            <div>{{ category | first }}</div>
+        </div>
+        <div class="col-md-2">
+            <div>篇数：{{ category | last | size }}</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="list-group">
+
+                {% for post in category.last %}
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-md-9"><a href="{{ post.url }}">{{ post.title }}</a></div>
+                        <div class="col-md-3">{{ post.date | date:"%Y/%m/%d"}}</div>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+
