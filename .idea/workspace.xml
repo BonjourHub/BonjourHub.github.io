@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e26068c-eb3b-4cde-8d01-7a394276f1c3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/categories/devTool/Cocoapods.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/categories/devTool/Git.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/categories/iOS/iOS3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/categories/iOS/iOS4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/categories/iOS/iOS5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/categories/netBase/TCPIP.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/categories/netBase/https.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/categories/servers/LinuxAd.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/categories/servers/LinuxSE.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/categories/servers/Linuxbase.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/categories/servers/PHPAd.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/categories/servers/PHPBase.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/categories/servers/PHPSE.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/categories/web/blog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/categories/web/htmlCss.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/categories/iOS.html" afterPath="$PROJECT_DIR$/categories/iOS/iOS.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/categories/iOS2.html" afterPath="$PROJECT_DIR$/categories/iOS/iOS2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/js/controller.js" afterPath="$PROJECT_DIR$/lib/js/controller.js" />
     </list>
     <ignored path="BonjourHub.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
