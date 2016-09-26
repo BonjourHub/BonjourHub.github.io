@@ -48,3 +48,7 @@ ul.posts li {
     text-decoration: none;
     cursor: pointer;
 }
+
+.backColor {
+  background-color: #f6f6f6;
+}
